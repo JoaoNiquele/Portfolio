@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Site",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "echo \"# Portfolio\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/JoaoNiquele/Portfolio.git\ngit push -u origin main"
   },
   {
     "objectID": "about.html",
