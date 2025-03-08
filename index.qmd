@@ -1,9 +1,50 @@
-```sh
-echo "# Portfolio" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/JoaoNiquele/Portfolio.git
-git push -u origin main
-```
+---
+title: "Portfólio de João"
+format: html
+---
+
+# Bem-vindo ao meu Portfólio!
+
+Olá! Sou João e esta é minha página no GitHub Pages.
+
+Confira meus projetos e entre em contato.
+
+[Meu GitHub](https://github.com/JoaoNiquele){target="_blank"}
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+</style>
+
+<header>
+  <h1>Bem-vindo ao meu Portfólio!</h1>
+</header>
+
+<footer>
+  <p>&copy; 2025 João Niquele</p>
+</footer>
